@@ -75,19 +75,4 @@ public class DecisionMakingTree {
         }
         return possibleLinks;
     }
-
-    public void outputNodes() {
-        System.out.println("Nodes:");
-        for (Node node : nodes) {
-            System.out.println(node);
-        }
-    }
-
-    // Method to output links
-    public void outputLinks() {
-        System.out.println("Links:");
-        for (Link link : links) {
-            System.out.println(link);
-        }
-    }
 }
